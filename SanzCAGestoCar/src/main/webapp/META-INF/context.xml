@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/SanzCAGestoCar">
+
+    <Resource name="jdbc/gestocardb"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxTotal="20"
+              maxIdle="10"
+              maxWaitMillis="-1"
+              username="java2025"
+              password="Java*2025"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/gestocardb"/>
+    
+    </Context>
